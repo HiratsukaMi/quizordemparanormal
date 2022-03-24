@@ -1,0 +1,45 @@
+{
+    "bg": "https://pbs.twimg.com/media/E997mPCWYAUTcns?format=jpg&name=large",
+    "title": "Quiz Ordem Paranormal",
+    "description": "Teste os seus conhecimentos sobre Ordem Paranormal!",
+    "logo": "https://ordemparanormal.com.br/wp-content/uploads/2021/07/S3Fmbolo_Maior_ocultista-1-1-1024x1005.png",
+    "url": "",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Como fazer um background gradiente com css?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+           "background: linear-gradient(#e66465, #9198e5);",
+           "background: gradient(#e66465, #9198e5);"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#7c4dff",
+        "secondary": "#b47cff",
+        "mainBg": "#212121",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
