@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" type="imagex/png" href="img/icon.ico" />
+        <link rel="shortcut icon" type="imagex/png" href="../img/icon.ico" />
         <meta property="og:url" content= {db.url} />
         <meta property="og:title" content= {db.title} />
         <meta property="og:image" content= {db.logo} />
