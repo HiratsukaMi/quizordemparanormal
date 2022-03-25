@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/react-in-jsx-scope */
 import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
