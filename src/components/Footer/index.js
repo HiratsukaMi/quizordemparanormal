@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
@@ -33,11 +34,15 @@ export default function Footer(props) {
         <img src="https://ordemparanormal.com.br/wp-content/uploads/2021/07/S3Fmbolo_Maior_ocultista-1-1-1024x1005.png" alt="Logo Ordem Paranormal" />
       </a>
       <p>
-        Quiz criado por: <a href="https://twitter.com/HiraMiDev">@HiraMiDev</a>
+        Quiz criado por:
         {' '}
-        <br></br>
+        <a href="https://twitter.com/HiraMiDev">@HiraMiDev</a>
         {' '}
-        Background por: <a href="https://twitter.com/najulia_k">@najulia_k</a>
+        <br />
+        {' '}
+        Background por:
+        {' '}
+        <a href="https://twitter.com/najulia_k">@najulia_k</a>
       </p>
     </FooterWrapper>
   );
